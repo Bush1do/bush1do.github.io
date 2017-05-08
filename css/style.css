@@ -180,10 +180,6 @@ aside#sidebar{
   background-image: url('../img/castle.jpg');
 }
 
-#sidebar .bar img{
-  opacity:0.5%;
-}
-
 /*Main-col*/
 article#main-col{
   float:left;

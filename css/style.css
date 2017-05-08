@@ -178,7 +178,10 @@ aside#sidebar{
   margin-top:10px;
   margin-bottom: 5px;
   background-image: url('../img/castle.jpg');
-  opacity:0.5;
+}
+
+#sidebar .bar img{
+  opacity:0.5%;
 }
 
 /*Main-col*/

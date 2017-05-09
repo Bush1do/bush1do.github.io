@@ -88,7 +88,7 @@ header a:hover{
 /*Showcase*/
 #showcase{
   min-height: 400px;
-  background: url('../img/showcase.png') no-repeat -950px -400px;
+  background: url('../img/showcase.png') no-repeat -800px -400px;
 text-align: center;
 color: #ffffff;
 opacity:0.5;

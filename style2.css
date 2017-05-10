@@ -22,7 +22,7 @@ a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white
 }
 
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
   width: 100%;
@@ -65,4 +65,12 @@ body {
   color: #EEEEEE;
   letter-spacing: 2px;
   text-shadow: 0 0 30px #000155;
+}
+
+@media(max-width:768px){
+	a,.title,.title h1,.title h1 span,.title h3
+	{
+	text-align:center;
+	width:100%;
+	}
 }

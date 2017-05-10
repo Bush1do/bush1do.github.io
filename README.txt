@@ -1,2 +1,3 @@
-Developed in Adobe Dreamweaver
-Resources pulled from Codepen.io
+*Developed in Adobe Dreamweaver
+
+*Resources pulled from Codepen.io

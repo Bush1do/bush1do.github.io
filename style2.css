@@ -79,5 +79,6 @@ body {
 	a.white-mode{
 		display:block;
 		width:100%;
+		padding:0;
 	}
 }

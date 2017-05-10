@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600')
+@import url('https://fonts.googleapis.com/css?family=Lato')
+
+.more-pens
+  position: fixed
+  left: 20px
+  bottom: 20px
+  z-index: 10
+  font-family: "Montserrat"
+  font-size: 12px
+
+a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active
+  font-family: "Montserrat"
+  font-size: 12px
+  text-decoration: none
+  background: #212121
+  padding: 4px 8px
+  color: #f7f7f7
+  &:hover
+    background: #edf3f8
+    color: #212121
+
+body
+  margin: 0
+  padding: 0
+  overflow: hidden
+  width: 100%
+  height: 100%
+  background: #121212
+
+
+.codepen
+  text-align: center
+  width: 427px
+  height: 76px
+  svg
+    width: 427px
+    height: 76px
+    fill: #FFFFFF
+  
+.title
+  z-index: 10
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translateX(-50%) translateY(-50%) scale(.8)
+  text-align: center
+
+  h3
+    font-family: "Montserrat"
+    font-weight: 200
+    font-size: 20px
+    padding: 0
+    margin: 0
+    line-height: 1
+    color: #FFFFFF
+    letter-spacing: 2px
+
+  h2
+    font-family: 'Lato', sans-serif
+    font-size: 14px
+    font-weight: 400
+    font-style: italic
+    padding: 0
+    margin: 4px 0 0 0
+    line-height: 1
+    color: #FFFFFF
+    letter-spacing: 2px
+
+svg
+  transition: fill .3s ease-out
+  display: block
+  width: 30px
+  height: 30px
+  position: absolute
+  transform: translateZ(0px)
+  fill: #444444
+  
+  &.highlight
+    fill: #fcd000

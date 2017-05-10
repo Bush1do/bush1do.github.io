@@ -76,4 +76,8 @@ body {
 	text-align:center;
 	width:100%;
 	}
+	a.white-mode{
+		display:block;
+		width:100%;
+	}
 }

@@ -53,7 +53,7 @@ var Particle = function () {
     this.w = $(window).width();
     this.h = $(window).height();
     this.radius = random > .2 ? Math.random() * 1 : Math.random() * 8;
-    this.color = random > .2 ? "#13054f" : "#d81e5b";
+    this.color = random > .2 ? "#f981fe" : "#d81e5b";
     this.radius = random > .8 ? Math.random() * 8 : this.radius;
     this.color = random > .8 ? "#23b5d3" : this.color;
   }

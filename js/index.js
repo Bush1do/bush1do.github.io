@@ -2,9 +2,9 @@
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var max_particles = 2500;
+var max_particles = 5000;
 var particles = [];
-var frequency = 10;
+var frequency = 1;
 var init_num = max_particles;
 var max_time = frequency * max_particles;
 var time_to_recreate = false;
@@ -36,8 +36,8 @@ var Particle = function () {
       y: $(window).height() / 2
     };
     this.point_of_attraction = {
-      x: $(window).width() / 2,
-      y: $(window).height() / 2
+      x: $(window).width()*2,
+      y: $(window).height()*2
     };
 
     if (Math.random() > 0.5) {
@@ -52,10 +52,10 @@ var Particle = function () {
     this.a = 0;
     this.w = $(window).width();
     this.h = $(window).height();
-    this.radius = random > .2 ? Math.random() * 1 : Math.random() * 3;
-    this.color = random > .2 ? "#694FB9" : "#9B0127";
-    this.radius = random > .8 ? Math.random() * 2.2 : this.radius;
-    this.color = random > .8 ? "#3CFBFF" : this.color;
+    this.radius = random > .2 ? Math.random() * 1 : Math.random() * 8;
+    this.color = random > .2 ? "#13054f" : "#d81e5b";
+    this.radius = random > .8 ? Math.random() * 8 : this.radius;
+    this.color = random > .8 ? "#23b5d3" : this.color;
   }
 
   Particle.prototype.calculateDistance = function calculateDistance(v1, v2) {
@@ -124,7 +124,7 @@ function createSphera() {
 
 function clear() {
   canvas.globalAlpha = 0.08;
-  canvas.fillStyle = '#110031';
+  canvas.fillStyle = '#0b032d';
   canvas.fillRect(0, 0, tela.width, tela.height);
   canvas.globalAlpha = 1;
 }

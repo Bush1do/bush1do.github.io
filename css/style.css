@@ -4,7 +4,7 @@ body,html{
   line-height:1.5;
   padding:0;
   margin:0;
-  background-color: #48BEFF;
+  background-color:#48BEFF;
   height:100%;
 }
 
@@ -186,6 +186,15 @@ border:0px solid;
 	border-bottom:#030036 5px solid;
 
 }
+@keyframes slidedown {
+    0%  {left:200px; top:0px;}
+    100%  {left:200px; top:200px;}
+  }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 
 /*Sidebar*/
 aside#sidebar{

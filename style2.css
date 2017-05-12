@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
 .more-pens {
   position: fixed;
-  left: 20px;
+  left: 0px;
   bottom: 20px;
+	padding: 10px;
   z-index: 10;
   font-family: "Montserrat";
   font-size: 12px;
@@ -37,10 +38,10 @@
 }
 /*Edit this color for hover*/
 .draw-border:hover {
-  color: #ffe593;
+  color:#d81e5b;
 }
 .draw-border:hover::before, .draw-border:hover::after {
-  border-color: #ffe593;
+  border-color:#d81e5b;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;

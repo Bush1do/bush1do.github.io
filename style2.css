@@ -134,7 +134,7 @@ body {
 	color:#23b5d3;
 }
 
-.footer{
+.copyright{
 	opacity:0.3;
 	position: absolute;
 	margin-left: 70em;
@@ -145,11 +145,10 @@ body {
 
 
 @media(max-width:768px){
-	a.white-mode,.title,.title h1,.title h1 span,.title h3,.footer
+	a.white-mode,.title,.title h1,.title h1 span,.title h3, .footer
 	{
 	text-align:center;
 	width:100%;
-		float:none;
 	}
 	a.white-mode{
 		display:block;

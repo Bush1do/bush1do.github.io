@@ -140,16 +140,16 @@ body {
 	margin-left: 70em;
 	margin-top: 390px;
   color:#ffffff;
-  text-align:center;
-  vertical-align: text-bottom;
+
 }
 
 
 @media(max-width:768px){
-	a.white-mode,.title,.title h1,.title h1 span,.title h3
+	a.white-mode,.title,.title h1,.title h1 span,.title h3,.footer
 	{
 	text-align:center;
 	width:100%;
+		float:none;
 	}
 	a.white-mode{
 		display:block;

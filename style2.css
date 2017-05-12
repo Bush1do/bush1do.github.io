@@ -70,19 +70,6 @@
   outline: 2px dotted #55d7dc;
 }
 
-body {
-  background: #1f1a25;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 100vh;
-}
 
 
 body {
@@ -134,23 +121,21 @@ body {
 	color:#23b5d3;
 }
 
-.copyright{
-	opacity:0.3;
-	position: absolute;
-	margin-left: 70em;
-	margin-top: 390px;
-  color:#ffffff;
-
+#footer {
+		width: 100%;
+		margin-top: 2rem;
+		color:#ffffff;
+			opacity: 0.3;
+			margin-bottom: 0;
 }
 
-
 @media(max-width:768px){
-	a.white-mode,.title,.title h1,.title h1 span,.title h3, .footer
+	.more-pens,.title,.title h1,.title h1 span,.title h3,#footer
 	{
 	text-align:center;
 	width:100%;
 	}
-	a.white-mode{
+	.more-pens{
 		display:block;
 		width:100%;
 		padding:0;

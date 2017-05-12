@@ -130,11 +130,15 @@ body {
   letter-spacing: 2px;
   text-shadow: 0 0 30px #000155;
 }
-.name{
+.designer{
 	color:#23b5d3;
 }
 
 .footer{
+	opacity:0.3;
+	position: absolute;
+	margin-left: 70em;
+	margin-top: 390px;
   color:#ffffff;
   text-align:center;
   vertical-align: text-bottom;

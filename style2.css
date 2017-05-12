@@ -146,7 +146,7 @@ body {
 
 
 @media(max-width:768px){
-	a.white-mode,.title,.title h1,.title h1 span,.title h3, .footer
+	a.white-mode,.title,.title h1,.title h1 span,.title h3
 	{
 	text-align:center;
 	width:100%;

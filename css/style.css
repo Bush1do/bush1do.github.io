@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
 @import url('https://fonts.googleapis.com/css?family=Playball');
 body,html{
-  font-family: "Arial",Helvetica,Times;
+  font-family: "Source Sans Pro",Helvetica,Times;
   font-size: 15px;
   line-height:1.5;
   padding:0;
@@ -167,7 +167,7 @@ border:0px solid;
 
 #boxes .box img{
   width:100%;
-	 border-bottom:#D8D8D8 5px solid;
+	 border-bottom:#ffffff 5px solid;
 }
 
 /*Resume*/

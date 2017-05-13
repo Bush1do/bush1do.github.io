@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Playball');
 body,html{
   font-family: "Arial",Helvetica,Times;
   font-size: 15px;
@@ -90,6 +91,9 @@ header a:hover{
 }
 
 /*Showcase*/
+#showcase h1{
+	font-family: "Playball";
+}
 #showcase{
   min-height: 400px;
   background: url('../img/showcase.png') no-repeat -800px -400px;

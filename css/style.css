@@ -381,6 +381,16 @@ body {
 	}
 }
 
+.loaded #loadcontainer{
+	-webkit-transform: translateY(-100%);
+		-ms-transform: translateY(-100%);
+			transform: translateY(-100%);
+}
+.loadcontainer #loadcontainer{
+	opacity:0;
+	visibility: hidden;
+}
+
 /*Media Queries*/
 @media(max-width: 768px){
 header #branding,

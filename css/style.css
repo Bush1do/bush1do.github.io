@@ -182,11 +182,7 @@ opacity:0.5;
 
 /*Resume*/
 #boxes .res{
-	overflow: hidden;
   margin-top: 20px;
-      font-size: 21px;
-      text-align: center;
-	
       animation: fadein 2s;
 }
 @keyframes slidedown {
@@ -200,9 +196,7 @@ opacity:0.5;
 
 #boxes .res img{
 	width:100%;
-	border-top:#030036 5px solid;
-	border-bottom:#030036 5px solid;
-
+	border-top:#0e2f59 5px solid;
 	animation: fadein 2s;
 }
 @keyframes slidedown {
@@ -217,6 +211,7 @@ opacity:0.5;
 	color: #53d8fb;
 	text-decoration: none;
 }
+
 
 /*Sidebar*/
 aside#sidebar{
@@ -245,7 +240,7 @@ footer{
 }
 
 #main-col{
-  color:#0a2342;
+  color:#0e2f59;
 	font-family: "Montserrat";
 }
 

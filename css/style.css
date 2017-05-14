@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 @import url('https://fonts.googleapis.com/css?family=Playball');
 body,html{
   font-family: "Source Sans Pro",Helvetica,Times;
@@ -53,10 +54,14 @@ header{
 }
 
 header a{
-  color:#ffffff;
   text-decoration:none;
   text-transform:uppercase;
-  font-size:16px
+  font-size:16px;
+	color:#EDDA93;
+   transition:color .5s ease-out; 
+   -moz-transition: color .5s ease-out;
+   -webkit-transition: color .5s ease-out;
+   -o-transition: color .5s ease-out;
 }
 
 header li{
@@ -87,14 +92,13 @@ header.highlight, header .current a{
 
 header a:hover{
   color:#53d8fb;
-  font-weight: bold;
 }
 
 /*Showcase*/
-#showcase h1{
-	font-family: "Playball";
-}
+
 #showcase{
+	font-family: "Playball";
+	
   min-height: 400px;
   background: url('../img/showcase.png') no-repeat -800px -400px;
 text-align: center;
@@ -118,42 +122,30 @@ opacity:0.5;
 #showcase h1{
   margin-top: 100px;
   font-size:55px;
-  margin bottom:10px;
+  margin-bottom:10px;
 }
 
 #showcase p{
-  font-size:20px;
+  font-size:30px;
+	text-shadow: 2px 2px 2px #000000;
 }
 
 
 /*Newsletter*/
-#newsletter{
-  padding:15px;
-  color:#ffffff;
+#biography{
+  padding:40px;
+  color:#0095FF;
   background:#0a2342;
+	font-family:"Fjalla One";
+	font-size: 20px;
 }
 
-#newsletter h1{
-  float:left;
-}
-
-#newsletter form{
-  float:right;
-  margin-top:15px;
-}
-
-#newsletter input[type= "email"]{
-  padding:5px;
-  height:25px;
-  width:250px;
-border:0px solid;
-   border-radius: 25px;
-}
 
 /*Boxes*/
 #boxes{
-  margin-top:20px;
+  border-top:#4D4D4D 5px solid;
 	font-family: "Source Sans Pro", sans-serif;
+	background: #161616;
 }
 
 #boxes .box{
@@ -161,13 +153,24 @@ border:0px solid;
   text-align:center;
   width:30%;
   padding:10px;
-  color:#0a2342;
+  color:#888482;
 	
 }
 
 #boxes .box img{
   width:100%;
 	 border-bottom:#ffffff 5px solid;
+	animation: slidedown 5s;
+	animation: fadein 2s;
+	
+}
+@keyframes slidedown {
+    0%  {left:200px; top:0px;}
+    100%  {left:200px; top:200px;}
+  }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 /*Resume*/
@@ -193,6 +196,7 @@ border:0px solid;
 	border-top:#030036 5px solid;
 	border-bottom:#030036 5px solid;
 
+	animation: fadein 2s;
 }
 @keyframes slidedown {
     0%  {left:200px; top:0px;}
@@ -223,11 +227,10 @@ article#main-col{
 
 footer{
   padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#0a2342;
+  color:#E4C656;
+  background-color:#553739;
   text-align:center;
-	border-top:#53d8fb 5px solid;
+	border-top:#955e42 5px solid;
 }
 
 #main-col{

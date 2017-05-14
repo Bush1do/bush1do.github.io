@@ -10,7 +10,7 @@ body,html{
   line-height:1.5;
   padding:0;
   margin:0;
-  background-color:#48BEFF;
+  background-color:#050914;
   height:100%;
 }
 
@@ -265,10 +265,11 @@ article#main-col,aside#sidebar,#biography{
   width:100%;
 }
 header{
-  padding-bottom:20px;
+  padding-bottom:200px;
 }
 #showcase h1{
   margin-top:40px;
+	background-position: left;
 }
 #newsletter button{
 display:block;

@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playball');
 
 body,html{
-  font-family: "Source Sans Pro",Helvetica,Times;
+  font-family: "Source Sans Pro",sans-serif;
   font-size: 15px;
   line-height:1.5;
   padding:0;

@@ -159,7 +159,7 @@ opacity:0.5;
 
 #boxes .box img{
   width:100%;
-	 border-bottom:#ffffff 5px solid;
+	 border-bottom:#66c3ff 5px solid;
 	animation: slidedown 5s;
 	animation: fadein 2s;
 	
@@ -206,7 +206,10 @@ opacity:0.5;
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
+.box a{
+	color: #53d8fb;
+	text-decoration: none;
+}
 
 /*Sidebar*/
 aside#sidebar{
@@ -214,7 +217,6 @@ aside#sidebar{
   width:90%;
   margin-top:10px;
   margin-bottom: 5px;
-  background-image: url('../img/castle.jpg');
 	font-family: "Montserrat";
 }
 
@@ -226,10 +228,10 @@ article#main-col{
 
 footer{
   padding:20px;
-  color:#E4C656;
-  background-color:#553739;
+  color:#4A4A4A;
+  background-color:#dce1e9;
   text-align:center;
-	border-top:#955e42 5px solid;
+	border-top:#fffdf7 5px solid;
 }
 
 #main-col{

@@ -137,13 +137,14 @@ opacity:0.5;
 #biography{
   padding:40px;
   color:#0095FF;
-  background:#0a2342;
 	font-family:"Press Start 2P";
 	font-size: 13px;
 	line-height: 2em;
 	overflow: hidden;
+	background:url('../img/Cursor.png') 118px 57px no-repeat;
+	background-color: #021223;
 }
-#biography img{
+.fire{
 	width:20px;
 	height:30px;
 }

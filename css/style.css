@@ -112,7 +112,7 @@ opacity:0.5;
    -o-transition: opacity .5s ease-out;
 
    /* Create the parallax scrolling effect */
-   background-attachment: fixed;
+   
  border-bottom:#53d8fb 5px solid;
 }
 

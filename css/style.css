@@ -260,10 +260,10 @@ article#main-col,aside#sidebar{
   width:100%;
 }
 header{
-  padding-bottom:200px;
+  padding-bottom:20px;
 }
 #showcase{
-background-attachment: local;
+background-position: -1200px -400px;
 }
 #biography{
 text-align: center;

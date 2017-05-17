@@ -149,15 +149,21 @@ nav a#pull {
 	width: 10px;
 	height: 10px;
 	background:#292929;
-	border:1px solid #303030;
+	
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	-o-border-radius: 20px;
 }
 .wmuSliderPagination a.wmuActive {
-	background:#2EB398;
-	border: 1px solid #24A78C;
+	background:#de3c4b;
+}
+.wmuSliderPagination a:hover {
+	background:#ff6aad;
+}
+.responsive img{
+	text-align: left;
+	
 }
 .slider_text{
 	width:50%;
@@ -867,6 +873,7 @@ h2.style{
 	.contact_right {
 		margin-top: 18%;
 	}
+	
 }
 @media only screen and (max-width: 480px) {
 	.navicon {

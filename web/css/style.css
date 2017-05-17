@@ -274,7 +274,7 @@ nav a#pull {
 .contact_left h3{
 	font-family: 'Kreon', serif;
 	font-size: 24px;
-	color: #ffffff;
+	color: #de3c4b;
 	text-transform: capitalize;
 }
 .contact_left p{
@@ -307,10 +307,10 @@ nav a#pull {
 	height: 160px;
 }
 .contact_left form input[type="text"]:focus,.contact_left form textarea:focus{
-	border: 1px solid #2EB398;	
+	border: 1px solid #de3c4b;	
 }
 .contact_left form input[type="text"]:hover,.contact_left form textarea:hover{
-	border-color: #2EB398;
+	border-color: #de3c4b;
 }
 .contact_right {
 	margin-top: 8%;

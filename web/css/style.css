@@ -4,12 +4,12 @@
 }
 body {
 	font-family: 'open_sansregular';
-	background:#ffffff;
+	background:#f4e8c1;
 	font-size: 100%;
 }
 /* start header */
 .header_bg{
-	background: #323232;
+	background: #262322;
 }
 .h_logo{
 	display: none;
@@ -40,7 +40,7 @@ nav li {
 }
 nav li.active a,nav li  a:hover{
 	text-decoration:none;
-	color: #2EB398;
+	color: #de3c4b;
 }
 nav li  a {
 	color: #fff;
@@ -194,13 +194,12 @@ nav a#pull {
 }
 /* start about us */
 .main_bg{
-	background: #2EB398;
+	background: #87f5fb;
 }
 .about{
 	margin:20px 0;
 	padding: 2% 2%;
-	border-left: 1px solid #248E78;
-	border-right: 1px solid #248E78;
+	border-left: 1px solid #00C4CF;
 }
 .about_img img{
 	width: 100%;
@@ -214,7 +213,7 @@ nav a#pull {
 .about_text h4{
 	font-family: 'Kreon', serif;
 	font-size: 18px;
-	color: #57E0C4;
+	color:#ffffff;
 	text-transform: capitalize;
 }
 .about_text p{
@@ -263,11 +262,11 @@ nav a#pull {
 	background: #EF558F;
 }
 .soc_icons ul li a i:hover{
-	background: #323232;
+	background: #262322;
 }
 /* start footer */
 .footer_bg{
-	background: #353535;
+	background: #262322;
 }
 .footer{
 	padding: 4%;
@@ -829,6 +828,7 @@ h2.style{
 	 }
 	 .nav_list{
 	 	margin-top: 40px;
+		 text-align: center;
 	 }
 	 .contact_right {
 		margin-top: 14%;

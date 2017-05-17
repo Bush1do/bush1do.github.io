@@ -4,7 +4,7 @@
 }
 body {
 	font-family: 'open_sansregular';
-	background:#f4e8c1;
+	background:#ffffff;
 	font-size: 100%;
 }
 /* start header */
@@ -264,8 +264,8 @@ nav a#pull {
 .soc_icons ul li a i.fa-linkedin {
 	background: #0A6C9B;
 }
-.soc_icons ul li a i.fa-dribbble {
-	background: #EF558F;
+.soc_icons ul li a i.fa-pinterest {
+	background: #0A6C9B;
 }
 .soc_icons ul li a i:hover{
 	background: #262322;
@@ -277,6 +277,7 @@ nav a#pull {
 .footer{
 	padding: 4%;
 }
+
 .contact_left h3{
 	font-family: 'Kreon', serif;
 	font-size: 24px;
@@ -386,10 +387,13 @@ nav a#pull {
 }
 /* start footer */
 .footer1_bg{
+	background:url("images/cross.png");
+}
+.footer1_bg img{
 	background: #222222;
 }
 .copy p{
-	color: #c9c9c9;
+	color: #f4e8c1;
 	font-size: 14px;
 	line-height: 1.8em;
 }
@@ -685,12 +689,7 @@ h2.style{
 .social_network_likes li a.email:hover{
   background:#0BB1A8;
 }
-.social_network_likes li a.dribble{
-	background:#EB4D89;
-}
-.social_network_likes li a.dribble:hover{
-  background:#E04580;
-}
+
 .social_network_likes li a div.social_network{
 	padding:15px 0 10px;
 }
@@ -710,9 +709,7 @@ h2.style{
 .social_network i.email-icon{
 	background-position: -104px 0px;
 }
-.social_network i.dribble-icon{
-	background-position: -156px 0px;
-}
+
 
 /* start news_letter */
 .news_letter{

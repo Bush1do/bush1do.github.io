@@ -99,33 +99,7 @@
             };
             
             
-            /* Navigation Control
-            ================================================== */ 
-         /*--   if (options.navigationControl) {
-                var prev = $('<a class="wmuSliderPrev">' + options.previousText + '</a>');
-                prev.click(function(e) {
-                    e.preventDefault();
-                    clearTimeout(slideshowTimeout);
-                    if (currentIndex == 0) {
-                        loadSlide(slidesCount - 1, true);
-                    } else {
-                        loadSlide(currentIndex - 1);
-                    }
-                });
-                $this.append(prev);
-                
-                var next = $('<a class="wmuSliderNext">' + options.nextText + '</a>');
-                next.click(function(e) {
-                    e.preventDefault();
-                    clearTimeout(slideshowTimeout);
-                    if (currentIndex + 1 == slidesCount) {    
-                        loadSlide(0, true);
-                    } else {
-                        loadSlide(currentIndex + 1);
-                    }
-                });                
-                $this.append(next);
-            }--*/
+
             
 
             /* Pagination Control

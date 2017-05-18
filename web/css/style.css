@@ -164,9 +164,10 @@ nav a#pull {
 .wmuSliderPagination a:hover {
 	background:#ff6aad;
 }
-.responsive img{
-	padding: 34px 10px 34px 10px;
+.responsive{
+	
 }
+
 .slider_text{
 	width:50%;
 	margin:0 auto;
@@ -786,9 +787,15 @@ h2.style{
 	}
 }
 @media only screen and (max-width:768px){
-	.responsive img{
-	padding: 34px 10px 34px 10px;
-}
+	.about_text h3{
+		text-align: center;
+	}
+	.about_text h4{
+		text-align: center;
+	}
+	.about_text p{
+		text-align: center;
+	}
 	nav {
 		border-bottom: 0;
 	}
@@ -861,9 +868,7 @@ h2.style{
 	}
 }
 @media only screen and (max-width: 640px) {
-	.responsive img{
-	padding: 34px 10px 34px 10px;
-}
+
 	h2.style {
 		font-size: 22px;
 	}
@@ -885,9 +890,7 @@ h2.style{
 	
 }
 @media only screen and (max-width: 480px) {
-	.responsive img{
-	padding: 34px 10px 34px 10px;
-}
+
 	.navicon {
 		top: 20px;
 		left: 20px;
@@ -897,9 +900,7 @@ h2.style{
 	}
 }
 @media only screen and (max-width: 320px) {
-	.responsive img{
-	padding: 34px 10px 34px 10px;
-}
+
 	.h_logo {
 		left: 38.333%;
 	}

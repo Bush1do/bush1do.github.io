@@ -1,9 +1,12 @@
-@font-face {
-     font-family: 'open_sansregular';
-      src:url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
-}
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+/*Cursive*/
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Playball');
 body {
-	font-family: 'open_sansregular';
+	font-family: 'Montserrat';
 	background:#ffffff;
 	font-size: 100%;
 }
@@ -211,18 +214,20 @@ nav a#pull {
 	width: 100%;
 }
 .about_text h3{
-	font-family: 'Kreon', serif;
 	font-size: 28px;
 	color: #ffffff;
 	text-transform: capitalize;
+	font-family: "Montserrat",sans-serif;
+	
 }
 .about_text h4{
-	font-family: 'Kreon', serif;
+	font-family: "Montserrat",sans-serif;
 	font-size: 18px;
 	color:#ffffff;
 	text-transform: capitalize;
 }
 .about_text p{
+	font-family: "Montserrat",sans-serif;
 	font-size: 13px;
 	color: #ffffff;
 	line-height: 1.8em;
@@ -387,11 +392,13 @@ nav a#pull {
 }
 /* start footer */
 .footer1_bg{
-	background:url("images/cross.png");
-}
-.footer1_bg img{
 	background: #222222;
+	text-align: center;
+	color: #f4e8c1;
+	font-size: 15px;
+	font-family: 
 }
+
 .copy p{
 	color: #f4e8c1;
 	font-size: 14px;

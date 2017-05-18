@@ -69,7 +69,7 @@ nav a#pull {
 	position: absolute;
 	width: 0;
 	height: 0;
-	border: 40px solid #323232;
+	border: 40px solid #262322;
 	border-bottom: 0 solid rgba(0, 0, 0, 0)!important;
 	border-right: 40px solid rgba(0, 0, 0, 0)!important;
 	border-left: 40px solid rgba(0, 0, 0, 0)!important;
@@ -165,8 +165,7 @@ nav a#pull {
 	background:#ff6aad;
 }
 .responsive img{
-	text-align: left;
-	
+	padding: 34px 10px 34px 10px;
 }
 .slider_text{
 	width:50%;
@@ -395,8 +394,8 @@ nav a#pull {
 	background: #222222;
 	text-align: center;
 	color: #f4e8c1;
-	font-size: 15px;
-	font-family: 
+	font-size: 20px;
+	font-family: "Oleo Script" 
 }
 
 .copy p{
@@ -787,6 +786,9 @@ h2.style{
 	}
 }
 @media only screen and (max-width:768px){
+	.responsive img{
+	padding: 34px 10px 34px 10px;
+}
 	nav {
 		border-bottom: 0;
 	}
@@ -832,7 +834,7 @@ h2.style{
 		z-index: 999;
 	}
 	.specials {
-		padding: 34px 10px;
+		padding: 34px 10px 34px 10px;
 	}
 	 nav li a {
 	 	padding:10px 10px;
@@ -859,6 +861,9 @@ h2.style{
 	}
 }
 @media only screen and (max-width: 640px) {
+	.responsive img{
+	padding: 34px 10px 34px 10px;
+}
 	h2.style {
 		font-size: 22px;
 	}
@@ -880,6 +885,9 @@ h2.style{
 	
 }
 @media only screen and (max-width: 480px) {
+	.responsive img{
+	padding: 34px 10px 34px 10px;
+}
 	.navicon {
 		top: 20px;
 		left: 20px;
@@ -889,6 +897,9 @@ h2.style{
 	}
 }
 @media only screen and (max-width: 320px) {
+	.responsive img{
+	padding: 34px 10px 34px 10px;
+}
 	.h_logo {
 		left: 38.333%;
 	}

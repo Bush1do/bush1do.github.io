@@ -297,49 +297,7 @@ nav a#pull {
 	color: #ffffff;
 	line-height: 1.8em;
 }
-/* start soc_icons */
-.soc_icons ul{
-	margin-bottom: 0;
-}
-.soc_icons ul li{
-	display:inline-block;
-	margin-left: -3px;
-}
-.soc_icons ul li a{
-	color:#ffffff;
-	font-size: 24px;
-	display: block;
-}
-.soc_icons ul li a i{
-	line-height: 52px;
-	width: 52px;
-	height: 52px;	
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.soc_icons ul li a i.fa-facebook {
-	background: #3660A0;
-}
-.soc_icons ul li a i.fa-twitter {
-	background: #2CAAE1;
-}
-.soc_icons ul li a i.fa-google-plus {
-	background: #DD5644;
-}
-.soc_icons ul li a i.fa-pinterest {
-	background: #CC2B27;
-}
-.soc_icons ul li a i.fa-linkedin {
-	background: #0A6C9B;
-}
-.soc_icons ul li a i.fa-pinterest {
-	background: #0A6C9B;
-}
-.soc_icons ul li a i:hover{
-	background: #262322;
-}
+
 /* start footer */
 .footer_bg{
 	background: #262322;
@@ -457,7 +415,6 @@ nav a#pull {
 }
 /* start footer */
 .footer1_bg{
-	background:url(../images/geom.png)no-repeat;
 	text-align: center;
 	color: #f4e8c1;
 	font-size: 20px;
@@ -494,52 +451,7 @@ nav a#pull {
 	text-indent: 100%;
 	background: url(../images/arrow_up.png) no-repeat center;
 }
-/* start portfolio  */
 
-h2.style{
-	font-family: 'Kreon', serif;
-	display: block;
-	text-transform: uppercase;
-	font-size: 26px;
-	background: #2EB398;
-	padding: 15px;
-	color: #ffffff;
-	margin: 4% 0;
-}
-.grids_of_4 {
-	margin-top: 2%;
-}
-.images_1_of_4 h3 a{
-	font-family: 'Kreon', serif;
-	display: block;
-	text-transform: capitalize;
-	font-size: 20px;
-	color: #3b3b3b;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.images_1_of_4 h3 a:hover{
-	text-decoration: none;
-	color:#2EB398;
-}
-.images_1_of_4 h4 a{
-	font-family: 'Kreon', serif;
-	font-style: italic;
-	line-height: 1.5em;
-	font-size: 16px;
-	color:#2EB398;
-	text-transform: capitalize;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.images_1_of_4 h4 a:hover{
-	text-decoration: none;
-	color: #323232;
-}
 /* start blog */
 .blog{
 	background: #ffffff;

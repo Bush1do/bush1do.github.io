@@ -76,6 +76,7 @@ nav a#pull {
 	left: 50%;
 	bottom: -40px;
 	margin-left: -45px;
+	z-index: 100;
 }
 /*Styles for screen 600px and lower*/
 @media screen and (max-width: 768px) {
@@ -107,6 +108,7 @@ nav a#pull {
 	  	text-indent: 25px;
   	}
 }
+
 /* start slider */
 .slider_bg{
 	background: #ffffff;
@@ -116,7 +118,7 @@ nav a#pull {
 }
 .list_imgs li img{
 	display: inline-block !important;
-		margin:60px 0;
+		/*margin:60px 0;*/
 }
 .wmuSlider {
 	height: 100% !important;
@@ -126,6 +128,7 @@ nav a#pull {
 .wmuSlider .wmuSliderWrapper article {
 	text-align: center;
 	height: 100%;
+	float: left;
 }
 .wmuSlider .wmuSliderWrapper article img {
 	max-width: 100%;
@@ -133,6 +136,68 @@ nav a#pull {
 	height: auto;
 	display:block;
 }
+.wmuSlider .wmuSliderWrapper {
+	position: relative;
+	margin: 0;
+	left: 0;
+/*animation:20s slidy infinite*/
+}
+/*@keyframes slidy{
+	0%{
+		left:0%;
+	}
+	10%{
+		left: 0%;
+	}
+	12%{
+		left: -100%;
+	}
+	22%{
+		left: -100%;
+	}
+	24%{
+		left: -200%;
+	}
+	34%{
+		left: -200%;
+	}	
+	36%{
+		left: -300%;
+	}
+	46%{
+		left: -300%;
+	}
+	48%{
+		left: -400%;
+	}
+	58%{
+		left: -400%;
+	}
+	60%{
+		left: -300%;
+	}
+	70%{
+		left: -300%;
+	}
+	72%{
+		left: -200%;
+	}
+	82%{
+		left: -200%;
+	}
+	84%{
+		left: -100%;
+	}
+	94%{
+		left: -100%;
+	}
+	96%{
+		left: 0%;
+	}
+}*/
+
+
+/*Pagination*/
 .wmuSliderPagination {
 	z-index: 2;
 	position: absolute;

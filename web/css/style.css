@@ -266,6 +266,7 @@ nav a#pull {
 	background: #EA6060;
 	color: #ffffff;
 }
+
 /* start about us */
 .main_bg{
 	background: #87f5fb;
@@ -273,7 +274,7 @@ nav a#pull {
 .about{
 	margin:20px 0;
 	padding: 2% 2%;
-	border-left: 1px solid #00C4CF;
+	border-left: 1px solid #20222e;
 }
 .about_img img{
 	width: 100%;
@@ -298,6 +299,36 @@ nav a#pull {
 	line-height: 1.8em;
 }
 
+/* start skills */
+.skill_bg{
+	background: #20222e;
+}
+.skills{
+	margin:20px 0;
+	padding: 2% 2%;
+	border-left: 1px solid #00C4CF;
+}
+
+.skills_text h3{
+	font-size: 28px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-family: "Montserrat",sans-serif;
+	
+}
+.skills_text h4{
+	font-family: "Montserrat",sans-serif;
+	font-size: 18px;
+	color:#ffffff;
+	text-transform: capitalize;
+}
+.skills_text p{
+	font-family: "Montserrat",sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 1.8em;
+}
+
 /* start footer */
 .footer_bg{
 	background: #262322;
@@ -305,7 +336,9 @@ nav a#pull {
 .footer{
 	padding: 4%;
 }
-
+.footer form{
+	font-family: 
+}
 .contact_left h3{
 	font-family: 'Kreon', serif;
 	font-size: 24px;
@@ -392,8 +425,15 @@ nav a#pull {
 	text-decoration:none;
 	color:#de3c4b;
 }
+.contact_left form input[type="text"]{
+	font-family: 'Montserrat';
+}
+.contact_left form textarea{
+	font-family: 'Montserrat';
+}
+
 .contact_left form input[type="submit"] {
-	font-family: 'open_sansregular';
+	font-family: 'Montserrat';
 	-webkit-appearance: none;
 	cursor: pointer;
 	outline: none;
@@ -415,6 +455,7 @@ nav a#pull {
 }
 /* start footer */
 .footer1_bg{
+	background: #323232;
 	text-align: center;
 	color: #f4e8c1;
 	font-size: 20px;
@@ -769,6 +810,7 @@ nav a#pull {
 	}
 	.about_text h4{
 		text-align: center;
+		
 	}
 	.about_text p{
 		text-align: center;

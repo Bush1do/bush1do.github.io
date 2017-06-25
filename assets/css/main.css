@@ -1,7 +1,6 @@
 /*My Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600");
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 /*Cursive*/
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
@@ -1653,8 +1652,8 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #1A2128;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #000000;
+		font-family: "Montserrat", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;

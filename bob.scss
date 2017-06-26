@@ -12,7 +12,8 @@
 
 .wave {
   opacity: .4;
-  position: absolute;
+  position:absolute;
+  overflow: hidden;
   top: 70%;
   left: 0%;
   background: #0af;
@@ -26,17 +27,20 @@
 }
 
 .wave.-three {
+	overflow: hidden;
 	  background: #FF0068;
   animation: drift 5000ms infinite linear;
 }
 
 .wave.-two {
+	overflow: hidden;
   animation: drift 7000ms infinite linear;
   opacity: .1;
   background: #FFffff;
 }
 
 .box:after {
+	overflow: hidden;
   content: '';
   display: block;
   left: 0;
@@ -66,6 +70,9 @@
   text-indent: .3em;
 }*/
 @keyframes drift {
-  from { transform: rotate(0deg); }
-  from { transform: rotate(360deg); }
+	overflow: hidden;
+  from { transform: rotate(0deg);
+	overflow: hidden;}
+  from { transform: rotate(360deg);
+	overflow: hidden;}
 }

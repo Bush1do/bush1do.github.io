@@ -3118,11 +3118,13 @@
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
+		overflow: hidden;
 	}
 
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
+			overflow: hidden;
 		}
 
 		#banner .logo {
@@ -3136,6 +3138,7 @@
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+			overflow: hidden;
 		}
 
 			#banner .logo .icon {
@@ -3148,6 +3151,7 @@
 				line-height: 2.25em;
 				text-align: center;
 				width: 2.25em;
+				overflow: hidden;
 			}
 
 		#banner h2 {
@@ -3172,6 +3176,7 @@
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+			overflow: hidden;
 		}
 
 		#banner p {
@@ -3198,6 +3203,7 @@
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+			overflow: hidden;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3360,6 +3366,7 @@
 		background-color: #2e3141;
 		margin: 6.5em 0;
 		position: relative;
+		z-index: 12;
 	}
 
 		.wrapper:before, .wrapper:after {
@@ -3757,6 +3764,7 @@
 		flex-wrap: wrap;
 		margin: 0 auto;
 		width: 55em;
+		overflow: hidden;
 	}
 
 		#footer .inner > * {

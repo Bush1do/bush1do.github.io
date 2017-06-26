@@ -1630,7 +1630,7 @@
 
 	}
 
-	body {
+	body {z-index: 12;
 		background-color: #4C5C96;
 
 		background-size: auto, cover;
@@ -3500,6 +3500,7 @@
 
 		.wrapper.spotlight {
 			background-color: #4c5c96;
+			z-index: 12;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {

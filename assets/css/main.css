@@ -1643,7 +1643,7 @@
 	}
 
 	body {z-index: 12;
-		background-color: #4C5C96;
+		background-color: #4c6c96;
 
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -2025,7 +2025,7 @@
 
 	select option {
 		color: #ffffff;
-		background: #2e3141;
+		background: #2e3541;
 	}
 
 	input[type="text"],
@@ -2100,12 +2100,12 @@
 			background: #ffffff;
 			border-color: #ffffff;
 			content: '\f00c';
-			color: #2e3141;
+			color: #2e3541;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4c5c96;
+			border-color: #4c6c96;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2472,7 +2472,7 @@
 					}
 
 					ul.pagination li > .page.active {
-						background-color: #4c5c96;
+						background-color: #4c6c96;
 					}
 
 				ul.pagination li:first-child {
@@ -2654,7 +2654,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #4c5c96;
+			background-color: #4c6c96;
 			box-shadow: none;
 		}
 
@@ -2671,7 +2671,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #45558d;
+				background-color: #45648d;
 			}
 
 			input[type="submit"].special.icon:before,
@@ -2856,7 +2856,7 @@
 			position: absolute;
 			right: 0.7em;
 			text-transform: uppercase;
-			top: 0.7em;	 
+			top: 0.7em;
 		}
 
 			#header nav a {
@@ -3029,7 +3029,7 @@
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #4c6c96;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3085,7 +3085,7 @@
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #45648d;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -3375,22 +3375,22 @@
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: #2e3541;
 		margin: 6.5em 0;
 		position: relative;
 		z-index: 12;
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3541%3B' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #2e3541, 0 1px 0 0 #2e3541;
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #2e3541, 0 1px 0 0 #2e3541;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3518,20 +3518,20 @@
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #4c6c96;
 			z-index: 12;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c6c96%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #4c6c96, 0 1px 0 0 #4c6c96;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #4c6c96, 0 1px 0 0 #4c6c96;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3580,36 +3580,36 @@
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #45648d;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345648d%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #45648d, 0 1px 0 0 #45648d;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #45558d, 0 1px 0 0 #45558d;
+					box-shadow: inset 0 -1px 0 0 #45648d, 0 1px 0 0 #45648d;
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3F4E85;
+				background-color: #3f5d85;
 			}
 
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233F4E85%3B' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f5d85%3B' /%3E%3C/svg%3E");
 				}
 
 				.wrapper.spotlight.style3:before {
-					box-shadow: inset 0 -1px 0 0 #3F4E85, 0 1px 0 0 #3F4E85;
+					box-shadow: inset 0 -1px 0 0 #3f5d85, 0 1px 0 0 #3f5d85;
 				}
 
 				.wrapper.spotlight.style3:after {
-					box-shadow: inset 0 -1px 0 0 #3F4E85, 0 1px 0 0 #3F4E85;
+					box-shadow: inset 0 -1px 0 0 #3f5d85, 0 1px 0 0 #3f5d85;
 				}
 
 			.wrapper.spotlight.style4 {
@@ -3825,7 +3825,7 @@
 
 		#footer {
 			background-color: #E5E5E5;
-			
+
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;

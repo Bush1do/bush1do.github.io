@@ -69,7 +69,7 @@ particlesJS("particles-js", {
       }
     }
   },
-	
+
 	/*Interactive*/
   "interactivity": {
     "detect_on": "canvas",

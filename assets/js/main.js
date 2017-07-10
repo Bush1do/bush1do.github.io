@@ -4,43 +4,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-particlesJS("particles", {
-  "particles": {
-    "number": {
-      "value": 100
-    },
-    "shape": {
-      "type": "star"
-    },
-    "size": {
-      "value": 10,
-      "random": true
-    },
-    "line_linked": {
-      "enable": false
-    },
-    "move": {
-      "enable": true,
-      "speed": 2,
-      "direction": "none",
-      "straight": false
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": false
-      }
-    },
-    "modes": {
-      "push": {
-        "particles_nb": 12
-      }
-    }
-  }
-});
-
 
 (function($) {
 

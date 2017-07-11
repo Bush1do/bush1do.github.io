@@ -72,6 +72,13 @@
 	  console.log("Below is the data from child_added");
 	  console.log(snapshot.val());
 	});
+	function pushData(){
+  var data = document.getElementById("dataValue").value;
+  var dataRef = database.ref('/').push();//Generates a new child location with a randomly generated id.
+  dataRef.set({
+    value: data
+  });
+}
 </script>
 
 		  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>

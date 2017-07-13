@@ -1,4 +1,7 @@
 /* Franklin's Container */
+body{
+      background-color: #E3F0FB ;
+}
 .fish {
   width: 150px;
   height: 100px;

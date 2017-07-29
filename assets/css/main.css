@@ -2971,6 +2971,87 @@
 
 		}
 
+/*Side nav bar*/
+.sidenav {
+    height: 10%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 60px;
+    left: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+	overflow-y: hidden;
+ /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	color: #888888;
+	padding-left: 10px;
+	margin-right: 10px;
+	line-height: 20px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	padding-top: 0px;
+	text-transform: uppercase;
+	display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: aqua;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+	position: absolute;
+    top: 5px;
+    right:-8px;
+    font-size: 36px;
+
+}
+.closebtn:hover{
+	color: aqua;
+}
+
+.sidenav p {
+	color: #888888;
+	padding-left: 40px;
+	margin-right: 10px;
+	line-height: 20px;
+	padding-top: 0px;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+
+.play{
+	top: -20px;
+	font-size: 20px;
+	float: left;
+	padding-left:10px;
+}
+.fa-arrow-circle-o-right{
+	font-size:15px;
+}
+.fa-arrow-circle-o-right:hover{
+	color:aqua;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
 /* Menu */
 
 	#page-wrapper {

@@ -1,6 +1,6 @@
-*Developed in Adobe Dreamweaver
+*Template from HTML5 UP
 
-*Resources pulled from Codepen.io and HTML5 UP
+*Edited in Adobe Dreamweaver
 
 https://html5up.net/
 

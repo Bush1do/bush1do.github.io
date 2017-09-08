@@ -6,4 +6,4 @@ https://html5up.net/
 
 www.codepen.io
 
-bush1do.github.io
+https://bush1do.github.io

@@ -84,3 +84,6 @@ body{
     cursor: pointer;
 }
 
+#mainContent{
+  font-family: 'Overpass', sans-serif;
+}

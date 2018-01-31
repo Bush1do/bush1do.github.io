@@ -14,6 +14,7 @@
   -webkit-transition: color 0.25s 0.08333s;
   transition: color 0.25s 0.08333s;
   position: relative;
+	border-radius: 50px;
 }
 .draw-border::before, .draw-border::after {
   border: 0 solid transparent;
@@ -25,18 +26,22 @@
   height: 0;
   bottom: 0;
   right: 0;
+			border-radius: 50px;
 }
 .draw-border::before {
   border-bottom-width: 4px;
   border-left-width: 4px;
+		border-radius: 50px;
 }
 .draw-border::after {
   border-top-width: 4px;
   border-right-width: 4px;
+		border-radius: 50px;
 }
 /*Edit this color for hover*/
 .draw-border:hover {
   color:#d81e5b;
+			border-radius: 50px;
 }
 .draw-border:hover::before, .draw-border:hover::after {
   border-color:#d81e5b;
@@ -44,14 +49,17 @@
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
   height: 100%;
+			border-radius: 50px;
 }
 .draw-border:hover::before {
   -webkit-transition-delay: 0s, 0s, 0.25s;
           transition-delay: 0s, 0s, 0.25s;
+			border-radius: 50px;
 }
 .draw-border:hover::after {
   -webkit-transition-delay: 0s, 0.25s, 0s;
           transition-delay: 0s, 0.25s, 0s;
+			border-radius: 50px;
 }
 
 .btn {
@@ -63,9 +71,11 @@
   padding: 1em 2em;
   letter-spacing: 0.05rem;
   text-decoration:none;
+			border-radius: 50px;
 }
 .btn:focus {
   outline: 2px dotted #55d7dc;
+			border-radius: 50px;
 }
 
 
@@ -123,7 +133,7 @@ body {
 		width: 100%;
 		margin-top: 2rem;
 		color:#ffffff;
-			opacity: 0.3;
+/*			opacity: 0.3;*/
 			margin-bottom: 0;
 }
 

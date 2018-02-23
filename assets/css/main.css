@@ -1643,7 +1643,11 @@
 	}
 
 	body {z-index: 12;
+<<<<<<< HEAD
 		background-color: #333533;
+=======
+		background-color: #E5E5E5;
+>>>>>>> origin/master
 
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;

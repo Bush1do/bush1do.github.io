@@ -2,7 +2,7 @@
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var max_particles = 5000;
+var max_particles = 1000;
 var particles = [];
 var frequency = 1;
 var init_num = max_particles;
